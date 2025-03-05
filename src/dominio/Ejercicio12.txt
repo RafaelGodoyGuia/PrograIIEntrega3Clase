@@ -1,0 +1,6 @@
+Una expresión lambda es una forma de expresar una función anónima, es decir, sin nombre y sin modificadores de acceso.
+Representa un bloque de código que realiza una tarea específica.
+Permite escribir funciones cortas y simples ocupando muchas menos líneas que los métodos tradicionales y evitando repetir líneas de código.
+Sirven para la programación funcional.
+Hacen el código más legible al operar con streams.
+Permiten pasar funciones como parámetro, fundamental para la programación funcional.
