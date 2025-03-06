@@ -15,5 +15,6 @@ public class Main {
         Integer[] array1 = {0,1,2,3,7,2,34,5};
         List <Integer> lista1 = Arrays.asList(array1);
         System.out.println(SumaParesLista.sumaParesLista(lista1));
+        System.out.println(ObtenerListaPar.obtenerListaPar(lista1));
     }
 }
