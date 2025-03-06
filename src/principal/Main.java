@@ -9,5 +9,6 @@ public class Main {
         System.out.println(Factorial.factorial(5));
         System.out.println(PotenciaNesima.potenciaNesima(2, 4));
         System.out.println(Integral.integral(x->Math.exp(Math.pow(x,2)), 0, 1, 100));
+        System.out.println(SumaPares.sumaPares(11));
     }
 }

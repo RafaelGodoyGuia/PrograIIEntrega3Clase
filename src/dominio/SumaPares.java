@@ -1,14 +1,10 @@
-package src.dominio;
+package dominio;
 
 import java.util.stream.IntStream;
 
 public class SumaPares {
     public static int sumaPares(int hasta) {
         return (
-                (n < 2) ? 0 :
-                    IntStream.iterate(2, n -> n + 2).
-                            limit(hasta).
-                            reduce(0, Integer::sum)
-                );
+                IntStream.iterate(0, n -> n + 2).limit((hasta+2)/2).reduce((int num1, int num2) -> (num1+num2)).orElse(0));
     }
 }

@@ -1,4 +1,4 @@
-package src.dominio;
+package dominio;
 
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
@@ -18,7 +18,7 @@ public class Ejercicio14 {
     }
 
     public static DoubleStream generarStreamNumerosConRandom() {
-        Random random = new Random()
+        Random random = new Random();
         return (random.doubles(10, 0, 9)); //Genera DoubleStream con números ale
     }
 }
