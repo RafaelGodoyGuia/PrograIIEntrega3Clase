@@ -18,5 +18,11 @@ public class Main {
         System.out.println(ObtenerListaPar.obtenerListaPar(lista1));
 
         System.out.println(ListaPar.listaPar(14));
+
+        Integer[] arrayVector1 = {1,2,3};
+        List <Integer> vector1 = Arrays.asList(arrayVector1);
+        Integer[] arrayVector2 = {2,4,6};
+        List <Integer> vector2 = Arrays.asList(arrayVector2);
+        System.out.println(CalcularProductoEscalar.calcularProductoEscalar(vector1, vector2));
     }
 }
