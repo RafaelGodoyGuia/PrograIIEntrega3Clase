@@ -1,6 +1,7 @@
 package src.dominio.ejercicio17;
 
 import java.time.LocalDate;
+import java.time.Period;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.*;
@@ -10,6 +11,9 @@ public class Persona {
     public String nombre;
     public LocalDate fechaNacimiento;
 
+    public long getEdad () {
+        return (Period.between(fechaNacimiento, LocalDate.now()).getYears());
+    }
     //Método añadir persona
     public void annadirPersona (Persona persona) {
         Scanner sc = new Scanner(System.in);
@@ -25,7 +29,10 @@ public class Persona {
 
     //Método
     public long calcularSumaEdades (List<Persona> personas) {
-        return ();
+        return (
+                personas.
+                stream().mapToDouble(Persona.).
+        );
     }
 
     public long calcularEdadMinima (List<Persona> personas) {
