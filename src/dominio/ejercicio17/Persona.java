@@ -31,7 +31,9 @@ public class Persona {
     public long calcularSumaEdades (List<Persona> personas) {
         return (
                 personas.
-                stream().mapToDouble(Persona.).
+                        stream().
+                        mapToLong(Persona::getEdad).
+                        sum()
         );
     }
 
@@ -40,6 +42,6 @@ public class Persona {
     }
 
     public double calcularMediaEdad (List<Persona> personas) {
-
+        return ((double)calcularSumaEdades(personas) / personas.size());
     }
 }
