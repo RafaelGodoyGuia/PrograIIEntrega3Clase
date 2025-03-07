@@ -1,6 +1,6 @@
-package principal;
+package src.principal;
 
-import dominio.*;
+import src.dominio.*;
 import java.util.*;
 
 public class Main {
@@ -24,5 +24,7 @@ public class Main {
         Integer[] arrayVector2 = {2,4,6};
         List <Integer> vector2 = Arrays.asList(arrayVector2);
         System.out.println(CalcularProductoEscalar.calcularProductoEscalar(vector1, vector2));
+
+
     }
 }

@@ -1,4 +1,4 @@
-package dominio;
+package src.dominio;
 import java.util.*;
 
 public class ObtenerListaPar {
