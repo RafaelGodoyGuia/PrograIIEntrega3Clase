@@ -1,6 +1,8 @@
 package src.principal;
 
 import src.dominio.*;
+import src.dominio.ejercicio17.Persona;
+
 import java.util.*;
 
 public class Main {
@@ -24,6 +26,12 @@ public class Main {
         Integer[] arrayVector2 = {2,4,6};
         List <Integer> vector2 = Arrays.asList(arrayVector2);
         System.out.println(CalcularProductoEscalar.calcularProductoEscalar(vector1, vector2));
+
+        for (int i = 0; i<5; i++) {
+            Persona.annadirPersona();
+        }
+        System.out.println("El mas joven es "+Persona.elMasJoven().nombre +", cuya edad es de " + Persona.calcularEdadMinima() + " annos.");
+        System.out.println("La suma de las edades de las personas annadidas es: "+Persona.calcularSumaEdades() +". La media es: " + Persona.calcularMediaEdad());
 
 
     }
