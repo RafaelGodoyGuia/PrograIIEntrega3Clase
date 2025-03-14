@@ -1,7 +1,5 @@
 package test.dominio;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class MatematicasTest {
 
     @org.junit.jupiter.api.Test
